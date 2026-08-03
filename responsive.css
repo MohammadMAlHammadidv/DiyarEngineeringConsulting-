@@ -1,0 +1,16 @@
+.nav-toggle { display: none; }
+@media (max-width: 900px) {
+  .hero, .contact-grid, .overview-grid { grid-template-columns: 1fr; }
+  .card-grid, .gallery-grid, .gallery-preview-grid, .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .nav-links { display: none; }
+  .nav-toggle { display: inline-flex; }
+  .site-header { padding: 0.85rem 0; }
+}
+@media (max-width: 640px) {
+  .section-shell { padding: 3rem 1rem; }
+  .hero-highlights, .card-grid, .gallery-grid, .gallery-preview-grid, .stats-grid { grid-template-columns: 1fr; }
+  .contact-banner, .hero-actions, .slider { display: flex; flex-direction: column; align-items: flex-start; }
+  .slider-control { display: none; }
+  .nav-shell { border-radius: 24px; padding: 0.8rem 1rem; }
+  .hero-visual img { min-height: 320px; }
+}

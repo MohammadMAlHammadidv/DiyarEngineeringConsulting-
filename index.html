@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ديار للاستشارات الهندسية | فخامة التصميم والإنجاز</title>
+    <meta name="description" content="ديار للاستشارات الهندسية تقدم استشارات معمارية وهندسية وإدارية لمشاريع فاخرة بإتقان دقيق وذوق معماري مميز." />
+    <meta name="theme-color" content="#206378" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <div class="scroll-progress"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <div data-nav></div>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">مكتب استشارات هندسية</p>
+          <h1>تصميم وإشراف على مشاريع عملية، دقيقة ومُدارة بفعالية.</h1>
+          <p class="hero-text" data-typing>نقدم خدمات التخطيط، التصميم الهندسي، الإشراف الفني، وإدارة المشاريع للمرافق السكنية والتجارية والتعليمية والصحية مع الالتزام بالجدول والميزانية والجودة.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="projects.html">استعراض المشاريع</a>
+            <a class="btn btn-secondary" href="contact.html">طلب استشارة</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight-card"><strong>+120</strong><span>مشروعًا منجزًا</span></div>
+            <div class="highlight-card"><strong>25 سنة</strong><span>خبرة عملية</span></div>
+            <div class="highlight-card"><strong>مستمرة</strong><span>متابعة وتنسيق</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal" data-parallax>
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=80" alt="مشروع هندسي وتنسيق معماري" />
+          <div class="floating-card card-a">
+            <p class="small-label">التنسيق</p>
+            <h3>إشراف فني من البداية إلى التسليم</h3>
+          </div>
+          <div class="floating-card card-b">
+            <p class="small-label">العمل</p>
+            <h3>تنفيذ مدروس ومتابعة مستمرة</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="overview section-shell reveal">
+        <div class="section-heading">
+          <p class="eyebrow">من نحن</p>
+          <h2>نحو تنفيذ واضح، مدروس، ومُدار بعناية.</h2>
+        </div>
+        <div class="overview-grid">
+          <div>
+            <p>يركّز مكتب ديار على تقديم خدمات هندسية عملية ومهنية تشمل التصميم، الإشراف، والتنسيق بين مختلف مراحل المشروع، مع مراعاة المتطلبات التقنية والوظيفية والميزانية.</p>
+          </div>
+          <div>
+            <p>نعمل على فهم احتياجات العميل بدقة، ثم نترجمها إلى حلول عملية تُحقق الجودة، تسهل اتخاذ القرار، وتقلل من التأخير والتعديلات غير الضرورية.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">خدماتنا</p>
+          <h2>خدمات عملية تغطي التصميم والإشراف والتنسيق.</h2>
+        </div>
+        <div id="services-preview" class="card-grid"></div>
+      </section>
+
+      <section class="section-shell stats-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">الأداء</p>
+          <h2>نتعامل مع كل مشروع بوضوح وتنسيق مستمر.</h2>
+        </div>
+        <div id="stats" class="stats-grid"></div>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">مشاريع مختارة</p>
+          <h2>مشاريع مدروسة ومُنفذة ضمن معايير واضحة.</h2>
+        </div>
+        <div id="projects-preview" class="card-grid"></div>
+      </section>
+
+      <section class="section-shell testimonials-shell reveal">
+        <div class="section-heading">
+          <p class="eyebrow">آراء العملاء</p>
+          <h2>مخرجات موثوقة لعملاء يضعون ثقتهم في التفاصيل.</h2>
+        </div>
+        <div class="slider" data-slider>
+          <button class="slider-control" data-slider-prev aria-label="السابق">←</button>
+          <div class="slider-track" id="testimonials"></div>
+          <button class="slider-control" data-slider-next aria-label="التالي">→</button>
+        </div>
+      </section>
+
+      <section class="section-shell gallery-preview reveal">
+        <div class="section-heading">
+          <p class="eyebrow">المعرض</p>
+          <h2>نماذج من بيئات ومشاريع متنوعة.</h2>
+        </div>
+        <div id="gallery-preview" class="gallery-preview-grid"></div>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">من المجلة</p>
+          <h2>مقالات عملية في الإدارة والتصميم والتشغيل.</h2>
+        </div>
+        <div id="blog-preview" class="card-grid"></div>
+      </section>
+
+      <section class="contact-banner section-shell reveal">
+        <div>
+          <p class="eyebrow">لنبدأ مشروعًا جديدًا</p>
+          <h2>نستقبل الاستشارات للمشاريع السكنية والتجارية والتعليمية والصحية.</h2>
+        </div>
+        <a class="btn btn-primary" href="contact.html">تواصل معنا</a>
+      </section>
+    </main>
+
+    <footer data-footer></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

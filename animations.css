@@ -1,0 +1,15 @@
+.hero .hero-copy { animation: fadeUp 1s ease both; }
+.hero .hero-visual { animation: fadeUp 1.1s ease 0.1s both; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+.floating-card { animation: floatY 5s ease-in-out infinite; }
+.card-b { animation-delay: 1s; }
+
+.contact-banner { background-size: 100% 100%; }
